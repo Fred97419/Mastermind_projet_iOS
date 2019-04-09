@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1DD873225C70250099A029 /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1DD872225C70250099A029 /* ScoreController.swift */; };
+		EC95BA8E225CAB4D0033688D /* ListScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95BA8D225CAB4D0033688D /* ListScoreController.swift */; };
 		ECCF21AA22571D2E00E7E83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF21A922571D2E00E7E83A /* AppDelegate.swift */; };
 		ECCF21AC22571D2E00E7E83A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF21AB22571D2E00E7E83A /* ViewController.swift */; };
 		ECCF21AF22571D2E00E7E83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCF21AD22571D2E00E7E83A /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		ECCF21B422571D2E00E7E83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCF21B222571D2E00E7E83A /* LaunchScreen.storyboard */; };
 		ECCF21BF22571D2E00E7E83A /* MastermindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF21BE22571D2E00E7E83A /* MastermindTests.swift */; };
 		ECCF21CA22571D2E00E7E83A /* MastermindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF21C922571D2E00E7E83A /* MastermindUITests.swift */; };
+		ECCF21D822571F4500E7E83A /* JouerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF21D722571F4500E7E83A /* JouerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC1DD872225C70250099A029 /* ScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
+		EC95BA8D225CAB4D0033688D /* ListScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScoreController.swift; sourceTree = "<group>"; };
 		ECCF21A622571D2E00E7E83A /* Mastermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCF21A922571D2E00E7E83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCF21AB22571D2E00E7E83A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		ECCF21C522571D2E00E7E83A /* MastermindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastermindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCF21C922571D2E00E7E83A /* MastermindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastermindUITests.swift; sourceTree = "<group>"; };
 		ECCF21CB22571D2E00E7E83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCF21D722571F4500E7E83A /* JouerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JouerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				ECCF21A922571D2E00E7E83A /* AppDelegate.swift */,
 				ECCF21AB22571D2E00E7E83A /* ViewController.swift */,
+				ECCF21D722571F4500E7E83A /* JouerController.swift */,
+				EC1DD872225C70250099A029 /* ScoreController.swift */,
+				EC95BA8D225CAB4D0033688D /* ListScoreController.swift */,
 				ECCF21AD22571D2E00E7E83A /* Main.storyboard */,
 				ECCF21B022571D2E00E7E83A /* Assets.xcassets */,
 				ECCF21B222571D2E00E7E83A /* LaunchScreen.storyboard */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1DD873225C70250099A029 /* ScoreController.swift in Sources */,
+				ECCF21D822571F4500E7E83A /* JouerController.swift in Sources */,
+				EC95BA8E225CAB4D0033688D /* ListScoreController.swift in Sources */,
 				ECCF21AC22571D2E00E7E83A /* ViewController.swift in Sources */,
 				ECCF21AA22571D2E00E7E83A /* AppDelegate.swift in Sources */,
 			);

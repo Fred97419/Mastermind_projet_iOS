@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func jouerAction(_ sender: UIButton) {
+        
+        
+    }
 }
 
